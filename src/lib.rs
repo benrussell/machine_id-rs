@@ -100,6 +100,10 @@ pub fn machine_id() -> String{
 // check a flag file to see if the lib should return a hard coded machine id
 fn machine_id_dev_mode() -> bool{
 
+
+    return false; // wrap this in a compile option flag or something
+
+    /*
     //let filename = crate::filenames::machine_id_dev_mode();
     let filename = "/tmp/machine_id-rs.txt"; //FIXME: 
     
@@ -118,5 +122,7 @@ fn machine_id_dev_mode() -> bool{
             return false;
         }
     } //can we find a file?
+    */
+
 }
 
