@@ -1,0 +1,1 @@
+echo export LITCRYPT_ENCRYPT_KEY=bee4a32cc25bbe10d3c6731d63cdb5a292ec0908
